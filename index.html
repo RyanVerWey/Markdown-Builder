@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Builder</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="layout">
+        <!-- Toolbar -->
+        <div class="toolbar">
+            <h3>Headers</h3>
+            <button type="button" onclick="addSection('header1')">New Section</button>
+            <button type="button" onclick="addSection('header2')">Navigation Section</button>
+            <button type="button" onclick="addSection('header3')">Header Level 3</button>
+            <button type="button" onclick="addSection('header4')">Header Level 4</button>
+            <button type="button" onclick="addSection('header5')">Header Level 5</button>
+            <button type="button" onclick="addSection('header6')">Header Level 6</button>
+
+            <h3>Blocks</h3>
+            <button type="button" onclick="addSection('text')">Text Block</button>
+            <button type="button" onclick="addSection('codeBlock')">Code Block</button>
+
+            <h3>Lists</h3>
+            <button type="button" onclick="addSection('unorderedList')">Unordered List</button>
+            <button type="button" onclick="addSection('orderedList')">Ordered List</button>
+
+            <h3>Breaks</h3>
+            <button type="button" onclick="addSection('lineBreak')">Line Break</button>
+            <button type="button" onclick="addSection('horizontalRule')">Horizontal Rule</button>
+        </div>
+
+        <!-- Content Area -->
+        <div class="content">
+            <!-- Builder Pane -->
+            <div class="builder-pane">
+                <div class="builder-header">
+                    <h2>Markdown Builder</h2>
+                    <button type="button" id="generateButton" onclick="generateMarkdown()">Generate Markdown</button>
+                </div>
+                <hr>
+                <div id="sections"></div>
+            </div>
+
+            <!-- Preview Pane -->
+            <div class="preview-pane">
+                <div class="preview-header">
+                    <h2>Markdown Preview</h2>
+                    <div class="outputBtn">
+                        <button type="button" id="copyButton">Copy Markdown</button>
+                        <button type="button" id="downloadButton" onclick="downloadMarkdown()">Download Markdown</button>
+                    </div>
+                </div>
+                <hr>
+                <div id="preview"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification container -->
+    <div id="notification" class="notification hidden">Markdown copied to clipboard!</div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
