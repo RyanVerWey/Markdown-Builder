@@ -343,6 +343,10 @@ h2 {
     animation: fadeInOut 3s forwards;
 }
 
+.hidden {
+    display: none;
+}
+
 .notification.error {
     background-color: #f44336; /* Error color */
 }
