@@ -61,7 +61,7 @@ Markdown Builder removes the need to manually write and debug Markdown syntax, o
 ![Preview of Markdown Builder](https://github.com/RyanVerWey/Markdown-Builder/blob/main/IMG/Preview.jpg)
 
 ### Live Preview Pane
-![Screenshot of Live Preview]([#](https://github.com/RyanVerWey/Markdown-Builder/blob/main/IMG/Live%20Preview.jpg?raw=true)
+![Preview of Live Demo](https://github.com/RyanVerWey/Markdown-Builder/blob/main/IMG/Live%20Preview.jpg)
 
 ---
 
