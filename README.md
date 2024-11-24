@@ -58,7 +58,7 @@ Markdown Builder removes the need to manually write and debug Markdown syntax, o
 ## Screenshots
 
 ### Toolbar and Builder Pane
-![Screenshot of Toolbar and Builder Pane](https://github.com/RyanVerWey/Markdown-Builder/blob/main/assets/toolbar-builder-pane.png)
+![Preview of Markdown Builder](https://github.com/RyanVerWey/Markdown-Builder/blob/main/IMG/Preview.jpg)
 
 ### Live Preview Pane
 ![Screenshot of Live Preview]([#](https://github.com/RyanVerWey/Markdown-Builder/blob/main/IMG/Live%20Preview.jpg?raw=true)
