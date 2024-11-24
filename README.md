@@ -112,9 +112,7 @@ The project is currently **in progress**. While it is fully functional for basic
 ---
 
 ## Acknowledgements
-This project was inspired by the need for an intuitive and accessible Markdown creation tool. Special thanks to:
-- Open-source developers whose tools and libraries laid the groundwork for this project.
-- UI design principles that shaped the application's layout and functionality.
+This project was inspired by the need for an intuitive and accessible Markdown creation tool to aide non developers to help create and refine documentation.
 
 ---
 
